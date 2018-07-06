@@ -2,8 +2,8 @@ require 'pry'
 
 class Dog
   @@all = []
-<<<<<<< HEAD
   attr_accessor :name
+  
   def initialize(name)
     @name = name
     @@all << self
@@ -11,7 +11,6 @@ class Dog
 
   def self.all
     @@all.each {|item| puts "#{item.name}"}
-=======
 
   def self.new(name)
     @name = name
