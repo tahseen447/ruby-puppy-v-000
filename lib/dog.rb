@@ -12,7 +12,6 @@ class Dog
   def self.new(name)
     @name = name
     @@all << name
-    @@all.uniq!
   end
 
   def self.all
