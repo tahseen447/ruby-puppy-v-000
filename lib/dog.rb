@@ -22,7 +22,7 @@ class Dog
     @@all.clear
   end
 
-  def self.name
+  def name
     @name
   end
 
